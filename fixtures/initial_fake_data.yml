@@ -1,0 +1,12 @@
+# initial fake data for question 1
+- model: question1.navigationrecord
+  pk: 1
+  fields:
+    datetime: 2004-10-19 10:23:54
+    latitude: 38.8951
+    longitude: -77.0364
+- model: question1.vehicle
+  pk: 1
+  fields:
+    plate: 06abc0001
+
