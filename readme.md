@@ -1,18 +1,23 @@
 
 ### Prerequisites
 
-You need to install docker to run docker commands
-* Docker
-  ```sh
-  https://www.docker.com/get-started
-  ```
+----
 
-* After you download repo, in root folder run:
+You need to install docker to run docker commands.
+* [Docker](https://www.docker.com/get-started)
+ 
+### Installation
+
+----
+
+ - After you download repo, in root folder run:
   ```sh
     Docker-compose run
   ```
 
 ### End-Points
+
+----
 
 * Api Root
   ```sh
@@ -36,6 +41,7 @@ You need to install docker to run docker commands
 
 #### Question 2
 
-  ```sh
-  http://localhost:8000/last-points/
-  ```
+*  End-point
+    ```sh
+      http://localhost:8000/last-points/
+    ```
