@@ -1,0 +1,198 @@
+[
+  {
+    "model": "question1.vehicle",
+    "pk": 1,
+    "fields": {
+      "plate": "06abc0001"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 2,
+    "fields": {
+      "plate": "06bbb222"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 3,
+    "fields": {
+      "plate": "06ccc333"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 4,
+    "fields": {
+      "plate": "06ccc333"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 5,
+    "fields": {
+      "plate": "06dd444"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 6,
+    "fields": {
+      "plate": "06ee111"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 7,
+    "fields": {
+      "plate": "06ff55"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 8,
+    "fields": {
+      "plate": "06gg111"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 9,
+    "fields": {
+      "plate": "06aec043"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 10,
+    "fields": {
+      "plate": "06bda2432"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 11,
+    "fields": {
+      "plate": "06fv314"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 12,
+    "fields": {
+      "plate": "06j313"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 13,
+    "fields": {
+      "plate": "06le341"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 14,
+    "fields": {
+      "plate": "06bas261"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 15,
+    "fields": {
+      "plate": "06ch003"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 16,
+    "fields": {
+      "plate": "06n013"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 17,
+    "fields": {
+      "plate": "06re013"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 18,
+    "fields": {
+      "plate": "06j013"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 19,
+    "fields": {
+      "plate": "06fv003"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 20,
+    "fields": {
+      "plate": "06js3123"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 21,
+    "fields": {
+      "plate": "06ll001"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 22,
+    "fields": {
+      "plate": "06bss222"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 23,
+    "fields": {
+      "plate": "06aw222"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 24,
+    "fields": {
+      "plate": "06qa032"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 25,
+    "fields": {
+      "plate": "06rr022"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 26,
+    "fields": {
+      "plate": "06py023"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 27,
+    "fields": {
+      "plate": "06rb012"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 28,
+    "fields": {
+      "plate": "06pr023"
+    }
+  }
+]

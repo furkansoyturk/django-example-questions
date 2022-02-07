@@ -1,0 +1,322 @@
+[
+  {
+    "model": "question1.navigationrecord",
+    "pk": 1,
+    "fields": {
+      "vehicle": 1,
+      "datetime": "2022-02-24 14:23:54",
+      "latitude": "38.8951",
+      "longitude": "-77.0364"
+    }
+  },
+  {
+  "model": "question1.navigationrecord",
+    "pk": 2,
+    "fields": {
+    "vehicle": 2,
+    "datetime": "2022-02-23 10:23:54",
+    "latitude": "38.8951",
+    "longitude": "-77.0364"
+    }
+  },
+  {
+  "model": "question1.navigationrecord",
+    "pk": 3,
+    "fields": {
+    "vehicle": 3,
+    "datetime": "2022-02-22 10:23:54",
+    "latitude": "38.8951",
+    "longitude": "-77.0364"
+    }
+  },
+  {
+  "model": "question1.navigationrecord",
+    "pk": 4,
+    "fields": {
+    "vehicle": 4,
+    "datetime": "2022-02-21 10:23:54",
+    "latitude": "38.8951",
+    "longitude": "-77.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 5,
+    "fields": {
+      "vehicle": 5,
+      "datetime": "2022-02-19 10:23:54",
+      "latitude": "38.8951",
+      "longitude": "-77.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 16,
+    "fields": {
+      "vehicle": 16,
+      "datetime": "2022-02-18 10:23:54",
+      "latitude": "38.8951",
+      "longitude": "-77.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 6,
+    "fields": {
+      "vehicle": 6,
+      "datetime": "2022-02-17 10:23:54",
+      "latitude": "38.8951",
+      "longitude": "-77.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 7,
+    "fields": {
+      "vehicle": 7,
+      "datetime": "2022-02-15 10:23:54",
+      "latitude": "38.8951",
+      "longitude": "-77.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 8,
+    "fields": {
+      "vehicle": 8,
+      "datetime": "2022-02-14 22:44:54",
+      "latitude": "38.8951",
+      "longitude": "-77.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 9,
+    "fields": {
+      "vehicle": 9,
+      "datetime": "2022-02-12 10:23:54",
+      "latitude": "38.8951",
+      "longitude": "-77.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 10,
+    "fields": {
+      "vehicle": 10,
+      "datetime": "2022-02-09 11:22:22",
+      "latitude": "38.8951",
+      "longitude": "-77.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 11,
+    "fields": {
+      "vehicle": 11,
+      "datetime": "2022-02-10 04:23:54",
+      "latitude": "12.3125",
+      "longitude": "-32.1256"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 12,
+    "fields": {
+      "vehicle": 12,
+      "datetime": "2022-02-06 10:24:54",
+      "latitude": "21.5462",
+      "longitude": "-52.1351"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 13,
+    "fields": {
+      "vehicle": 13,
+      "datetime": "2022-02-07 06:23:54",
+      "latitude": "12.4125",
+      "longitude": "-42.1123"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 14,
+    "fields": {
+      "vehicle": 14,
+      "datetime": "2022-02-09 14:00:00",
+      "latitude": "31.5123",
+      "longitude": "-12.4213"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 15,
+    "fields": {
+      "vehicle": 15,
+      "datetime": "2022-02-07 10:00:00",
+      "latitude": "42.8951",
+      "longitude": "-51.3241"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 16,
+    "fields": {
+      "vehicle": 16,
+      "datetime": "2022-02-11 17:32:54",
+      "latitude": "38.8951",
+      "longitude": "-77.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 17,
+    "fields": {
+      "vehicle": 17,
+      "datetime": "2022-02-07 03:23:54",
+      "latitude": "23.4325",
+      "longitude": "-24.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 18,
+    "fields": {
+      "vehicle": 18,
+      "datetime": "2022-02-09 21:23:54",
+      "latitude": "21.8951",
+      "longitude": "-41.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 19,
+    "fields": {
+      "vehicle": 19,
+      "datetime": "2022-02-14 12:21:12",
+      "latitude": "21.1231",
+      "longitude": "-11.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 20,
+    "fields": {
+      "vehicle": 20,
+      "datetime": "2022-02-13 10:23:54",
+      "latitude": "38.8951",
+      "longitude": "-72.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 21,
+    "fields": {
+      "vehicle": 21,
+      "datetime": "2022-02-14 10:23:54",
+      "latitude": "38.8951",
+      "longitude": "-77.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 22,
+    "fields": {
+      "vehicle": 22,
+      "datetime": "2022-02-18 22:44:54",
+      "latitude": "38.8951",
+      "longitude": "-77.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 23,
+    "fields": {
+      "vehicle": 23,
+      "datetime": "2022-02-19 10:23:54",
+      "latitude": "38.8951",
+      "longitude": "-77.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 23,
+    "fields": {
+      "vehicle": 23,
+      "datetime": "2022-02-20 11:22:22",
+      "latitude": "38.8951",
+      "longitude": "-77.0364"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 23,
+    "fields": {
+      "vehicle": 23,
+      "datetime": "2022-02-21 04:23:54",
+      "latitude": "12.3125",
+      "longitude": "-32.1256"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 23,
+    "fields": {
+      "vehicle": 23,
+      "datetime": "2022-02-22 10:24:54",
+      "latitude": "21.5462",
+      "longitude": "-52.1351"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 24,
+    "fields": {
+      "vehicle": 24,
+      "datetime": "2022-02-23 06:23:54",
+      "latitude": "12.4125",
+      "longitude": "-42.1123"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 25,
+    "fields": {
+      "vehicle": 25,
+      "datetime": "2022-02-24 14:00:00",
+      "latitude": "31.5123",
+      "longitude": "-12.4213"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 26,
+    "fields": {
+      "vehicle": 26,
+      "datetime": "2022-02-25 10:00:00",
+      "latitude": "42.8951",
+      "longitude": "-51.3241"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 27,
+    "fields": {
+      "vehicle": 27,
+      "datetime": "2022-02-26 12:00:00",
+      "latitude": "72.5123",
+      "longitude": "-12.4213"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 28,
+    "fields": {
+      "vehicle": 28,
+      "datetime": "2022-02-27 10:00:00",
+      "latitude": "21.8951",
+      "longitude": "-51.3241"
+    }
+  }
+]
