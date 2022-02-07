@@ -1,0 +1,52 @@
+[
+  {
+    "model": "question2.bin",
+    "pk": 1,
+    "fields": {
+      "collection_frequency": 0,
+      "last_collection": "2022-02-06 10:24:54",
+      "latitude": "21.5462",
+      "longitude": "-52.1351"
+    }
+  },
+  {
+    "model": "question2.bin",
+    "pk": 2,
+    "fields": {
+      "collection_frequency": 0,
+      "last_collection": "2022-02-06 10:24:54",
+      "latitude": "21.5462",
+      "longitude": "-52.1351"
+    }
+  },
+  {
+  "model": "question2.bin",
+  "pk": 3,
+  "fields": {
+    "collection_frequency": 0,
+    "last_collection": "2022-02-06 10:24:54",
+    "latitude": "21.5462",
+    "longitude": "-52.1351"
+    }
+  },
+  {
+    "model": "question2.bin",
+    "pk": 4,
+    "fields": {
+      "collection_frequency": 0,
+      "last_collection": "2022-02-06 10:24:54",
+      "latitude": "21.5462",
+      "longitude": "-52.1351"
+    }
+  },
+  {
+    "model": "question2.bin",
+    "pk": 5,
+    "fields": {
+      "collection_frequency": 0,
+      "last_collection": "2022-02-06 10:24:54",
+      "latitude": "21.5462",
+      "longitude": "-52.1351"
+    }
+  }
+]

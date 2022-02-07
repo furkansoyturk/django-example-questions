@@ -1,31 +1,14 @@
-from django.shortcuts import render
+from datetime import datetime, timedelta
 
 # Create your views here.
-from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
-from rest_framework import permissions
 from question1.models import NavigationRecord
-from question1.serializers import UserSerializer, GroupSerializer, NavigationRecordSerializer
-
-
-class UserViewSet(viewsets.ModelViewSet):
-    """
-    API endpoint that allows users to be viewed or edited.
-    """
-    queryset = User.objects.all().order_by('-date_joined')
-    serializer_class = UserSerializer
-    permission_classes = [permissions.IsAuthenticated]
-
-
-class GroupViewSet(viewsets.ModelViewSet):
-    """
-    API endpoint that allows groups to be viewed or edited.
-    """
-    queryset = Group.objects.all()
-    serializer_class = GroupSerializer
-    permission_classes = [permissions.IsAuthenticated]
+from question1.serializers import NavigationRecordSerializer
 
 
 class NavigationRecord(viewsets.ModelViewSet):
-    queryset = NavigationRecord.objects.all()
+    # find last two days and assign
+    last_two_days = datetime.now() - timedelta(days=2)
+    # filter result according to time
+    queryset = NavigationRecord.objects.filter(datetime__range=(last_two_days.date(), datetime.now()))
     serializer_class = NavigationRecordSerializer

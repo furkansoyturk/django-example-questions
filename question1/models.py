@@ -8,7 +8,7 @@ class Vehicle(models.Model):
 
 
 class NavigationRecord(models.Model):
-    vehicle = models.ForeignKey(Vehicle, on_delete=models.CASCADE)
+    vehicle = models.ForeignKey(Vehicle, related_name='test', on_delete=models.CASCADE)
     datetime = models.DateTimeField(auto_now_add=True, blank=True)
     latitude = models.FloatField()
     longitude = models.FloatField()
