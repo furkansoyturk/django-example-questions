@@ -4,7 +4,8 @@ from django.shortcuts import render
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from rest_framework import permissions
-from question1.serializers import UserSerializer, GroupSerializer
+from question1.models import NavigationRecord
+from question1.serializers import UserSerializer, GroupSerializer, NavigationRecordSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -23,3 +24,8 @@ class GroupViewSet(viewsets.ModelViewSet):
     queryset = Group.objects.all()
     serializer_class = GroupSerializer
     permission_classes = [permissions.IsAuthenticated]
+
+
+class NavigationRecord(viewsets.ModelViewSet):
+    queryset = NavigationRecord.objects.all()
+    serializer_class = NavigationRecordSerializer
