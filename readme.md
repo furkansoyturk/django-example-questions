@@ -1,21 +1,41 @@
-Access container with:
 
-    docker-compose run --rm web bash
+### Prerequisites
 
-Then make migrations.
+You need to install docker to run docker commands
+* Docker
+  ```sh
+  https://www.docker.com/get-started
+  ```
 
-    python manage.py makemigrations
-    python manage.py migrate
-
-Load fake data with following commands:
-
-    python manage.py loaddata fixtures/vehicle_fake_data.json
-    python manage.py loaddata fixtures/navigation_record_fake_data.json
-    python manage.py loaddata fixtures/bin_fake_data.json
-    python manage.py loaddata fixtures/operation_fake_data.json
-
-
-Then, open new terminal session in project root folder and run
-
+* After you download repo, in root folder run:
+  ```sh
     Docker-compose run
+  ```
 
+### End-Points
+
+* Api Root
+  ```sh
+    http://localhost:8000/
+  ```
+    
+#### Question 1
+
+*  End-point
+    ```sh
+     http://localhost:8000/last-points/
+   ```
+* This end-point return list of navigation records. I used '__range' to filter last records in 48 hours.
+
+
+* 'startswith' also can be used (it compares by matching char by char to filter).
+
+
+* Timescale DB can also be used, because that have options to perform queries according to time.
+
+
+#### Question 2
+
+  ```sh
+  http://localhost:8000/last-points/
+  ```
