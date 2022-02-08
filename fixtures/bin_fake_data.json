@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
       "collection_frequency": 0,
-      "last_collection": "2022-02-08 10:24:54",
+      "last_collection": "2022-02-08 10:10:54",
       "latitude": "21.5462",
       "longitude": "-52.1351"
     }
@@ -14,7 +14,7 @@
     "pk": 2,
     "fields": {
       "collection_frequency": 0,
-      "last_collection": "2022-02-09 10:24:54",
+      "last_collection": "2022-02-09 06:32:54",
       "latitude": "21.5462",
       "longitude": "-52.1351"
     }
@@ -24,7 +24,7 @@
   "pk": 3,
   "fields": {
     "collection_frequency": 0,
-    "last_collection": "2022-02-06 10:24:54",
+    "last_collection": "2022-02-11 11:22:54",
     "latitude": "21.5462",
     "longitude": "-52.1351"
     }
@@ -34,7 +34,7 @@
     "pk": 4,
     "fields": {
       "collection_frequency": 0,
-      "last_collection": "2022-02-10 10:24:54",
+      "last_collection": "2022-02-10 17:17:54",
       "latitude": "21.5462",
       "longitude": "-52.1351"
     }
@@ -44,7 +44,7 @@
     "pk": 5,
     "fields": {
       "collection_frequency": 0,
-      "last_collection": "2022-02-07 10:24:54",
+      "last_collection": "2022-02-08 18:18:54",
       "latitude": "21.5462",
       "longitude": "-52.1351"
     }

@@ -12,8 +12,5 @@ class Bin(models.Model):
 
 class Operation(models.Model):
     date = models.DateTimeField(auto_now_add=True, blank=True)
-    bin = models.ForeignKey(Bin, on_delete=models.CASCADE)
+    bin = models.ForeignKey(Bin, related_name='operations', on_delete=models.CASCADE)
     name = models.CharField(max_length=50)
-
-
-
