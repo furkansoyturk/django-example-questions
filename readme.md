@@ -3,7 +3,7 @@
 
 ----
 
-You need to install docker to run docker commands.
+You need to install docker to run project.
 * [Docker](https://www.docker.com/get-started)
  
 ### Installation
@@ -12,7 +12,7 @@ You need to install docker to run docker commands.
 
  - After you download repo, in root folder run:
   ```sh
-    Docker-compose run
+    docker-compose up
   ```
 
 ### End-Points
@@ -41,7 +41,17 @@ You need to install docker to run docker commands.
 
 #### Question 2
 
-*  End-point
+* End-point
     ```sh
       http://localhost:8000/last-points/
     ```
+   
+* Entity-relationship diagram:
+
+  * Bin could contain more than one operation and different operations can link to same Bin. Thus, there is a one to many relationship between them.
+  
+
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![diagram/er-diagram.PNG](diagram/er-diagram.PNG)
+  - --------------------------------------------------------------------------------------------------------------
+
