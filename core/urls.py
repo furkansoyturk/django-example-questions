@@ -16,17 +16,18 @@ Including another URLconf
 
 from django.urls import include, path
 from rest_framework import routers
-from question1 import views
+from question1.views import NavigationRecordViewSet
+from question2.views import BinViewSet
 
 router = routers.DefaultRouter()
 
-# our end point that show navigation record list
-router.register(r'last-points', views.NavigationRecord)
+# question1 end point that show navigation record list
+router.register(r'last-points', NavigationRecordViewSet)
+
+# question2 end point that show collection-frequency
+router.register(r'collection-frequency', BinViewSet)
 
 # Wire up our API using automatic URL routing.
-# Additionally, we include login URLs for the browsable API.
 urlpatterns = [
     path('', include(router.urls)),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-
 ]

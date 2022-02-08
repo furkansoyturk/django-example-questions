@@ -15,8 +15,9 @@ services:
     build: .
 #    command: python manage.py runserver 0.0.0.0:8000
     command: bash -c "python manage.py makemigrations
-        && python manage.py migrate && python manage.py loaddata fixtures/vehicle_fake_data.json
-        && python manage.py loaddata fixtures/navigation_record_fake_data.json && python manage.py loaddata fixtures/bin_fake_data.json
+        && python manage.py migrate
+        && python manage.py loaddata fixtures/vehicle_fake_data.json
+        && python manage.py loaddata fixtures/navigation_record_fake_data.json
         && python manage.py loaddata fixtures/bin_fake_data.json
         && python manage.py loaddata fixtures/operation_fake_data.json
         && python manage.py runserver 0.0.0.0:8000"

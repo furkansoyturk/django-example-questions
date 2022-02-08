@@ -1,11 +1,15 @@
-from question2.models import Bin
+from question2.models import Bin, Operation
 from rest_framework import serializers
 
 
-class BinSerializer(serializers.ModelSerializer):
+class OperationSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Operation
+        fields = ['name', 'date']
 
-    # get related vehicle plate from Vehicle model
-    # vehicle_plate = serializers.CharField(source='vehicle.plate')
+
+class BinSerializer(serializers.ModelSerializer):
+    # operation_name = serializers.RelatedField(many=True, read_only=True)
 
     class Meta:
         model = Bin

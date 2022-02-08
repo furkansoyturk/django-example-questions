@@ -6,7 +6,7 @@ from question1.models import NavigationRecord
 from question1.serializers import NavigationRecordSerializer
 
 
-class NavigationRecord(viewsets.ModelViewSet):
+class NavigationRecordViewSet(viewsets.ModelViewSet):
     # find last two days and assign
     last_two_days = datetime.now() - timedelta(days=2)
     # filter result according to time
