@@ -10,10 +10,10 @@ You need to install docker to run project.
 
 ----
 
- - After download the repo, you need to run command below in the root folder:
-  ```sh
+ * After download the repo, you need to run command below in the root folder:
+   ```sh
     docker-compose up
-  ```
+   ```
 
 ### End-Points
 
