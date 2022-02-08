@@ -43,7 +43,7 @@ You need to install docker to run project.
 
 * End-point
     ```sh
-      http://localhost:8000/last-points/
+      http://localhost:8000/collection-frequency/
     ```
    
 * Entity-relationship diagram:
